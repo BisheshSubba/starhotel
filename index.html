@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="star.css">
+</head>
+<body>
+<header class="head">
+    <div class="logo">
+        <a href="index.html"><img src="Elevate.jpg" alt="Logo"></a>
+        </div>
+        <div class="hamburger-menu">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+        <span class="nav-icon"></span>
+        </label>
+        <div class="menus">
+        <a href="rooms.html" class="menu">Rooms</a>
+        <a href="booking.html" class="menu">Booking</a>
+        <a href="about.html" class="menu">About us</a>
+        </div>
+        </div>
+        </header>
+    <div class="intro">
+        <div class="text-content">
+            <h1>Introduction</h1>
+            <p>Welcome to The Star Hotel, a modern sanctuary infused with the timeless charm of Nepal's architectural heritage. Established in 2024, our hotel is more than just a place to stay—it's an experience that marries luxury with authenticity, designed for discerning travelers who seek comfort without compromising on cultural immersion. <br>
+               <span class="extra"><br> Nestled in the heart of the city, The Star Hotel offers you the best of both worlds: the opulence of a high-end retreat and the warm, inviting atmosphere reminiscent of traditional Nepali homes. Each room and suite is thoughtfully crafted to reflect the rich history and artistry of Nepal, featuring intricate woodwork, serene courtyards, and panoramic views that echo the beauty of our landscape. <br>
+               <br> At The Star Hotel, we invite you to step back in time and discover the enduring spirit of Nepalese hospitality, where every stay is an opportunity to relax, rejuvenate, and revel in the elegance of tradition.</p>
+        </div>
+        <div class="imgcon">
+        <img src="hotel.webp" alt="">
+    </div>
+    </div>
+    <div class="intro" style="background-color: rgb(122, 113, 102);">
+        <div class=" img2">
+        <img src="hotel.webp" alt="">
+        </div>
+        <div class="text-content">
+            <h1>Introduction</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate esse voluptatibus minima? Atque officiis animi pariatur consequuntur adipisci natus ipsa ullam, modi, ex exercitationem laudantium similique, incidunt odit reprehenderit?</p>
+        </div>
+        </div>
+    <div class="intro" style="background-color: rgb(241, 214, 214);">
+        <div class="text-content">
+           <h1>Architecture</h1>
+           <p>
+            The architecture of The Star Hotel is a harmonious blend of Nepal's rich cultural heritage and modern luxury. Inspired by the timeless beauty of traditional Nepali homes, the design of our hotel is a tribute to the country's architectural legacy, seamlessly integrating historical elements with contemporary comforts.
+           <span id="dots">...</span>
+            <span id="more">
+             <br><br>
+             Exterior Design:
+            The hotel's façade is reminiscent of the classic Newari architecture found in the ancient cities of Kathmandu Valley. Characterized by intricately carved wooden windows, latticed balconies, and red brick walls, the exterior exudes an old-world charm that transports you back to the era of royal palaces and ancient temples. The sloping tiled roofs, a signature feature of traditional Nepali buildings, add to the authenticity, ensuring that The Star Hotel stands as a beacon of Nepal's architectural tradition.
+            <br><br>
+            Interior Design:
+            Stepping inside The Star Hotel, guests are greeted by a warm and inviting ambiance, where the design ethos continues to reflect the traditional aesthetics of Nepali homes. The lobby features high ceilings supported by wooden beams and columns, adorned with detailed carvings of deities and symbols that hold cultural significance. The flooring, crafted from local stone and terracotta tiles, is inspired by the courtyards of ancient Nepali dwellings, creating a sense of continuity between the indoors and outdoors.
+            <br><br>
+            Rooms and Suites:
+            Each room and suite is designed to be a serene retreat, echoing the simplicity and elegance of traditional Nepali interiors. The use of local materials, such as handcrafted wooden furniture and textiles woven by local artisans, adds a touch of authenticity. Earthy tones dominate the color palette, with warm reds, deep browns, and soft ochres creating a cozy and welcoming atmosphere. Large windows and balconies offer stunning views of the surrounding landscapes, ensuring that guests remain connected to the natural beauty of Nepal.
+        </span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">Read more</button></div>
+            <div class="slider">
+            <div class="slides">
+                <img src="hotel1.jpg" alt="Image 1">
+                <img src="hotel2.jpg" alt="Image 2">
+                <img src="hotel3.jpg" alt="Image 3">
+            </div>
+        </div>
+    </div>
+    <footer class="bottom">
+            <div class="details">
+            <h2>Company Details</h2>
+            <p>	
+         Star Hotel <br>
+         Dallu 15 <br>
+         Kathmandu <br>
+         12345 <br>
+        <br>
+         Tel: 01 1234567<br>
+         Fax: 1223 41232<br>
+         Email:<a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBVWVFNGsBMRxGdQrlhcDzPVlgjFwSJSwlfDJRXCBwzPQRfBvKxfNQqCLVvXdCFDZQPlV"> bisheshs255@gmail.com</a><br>
+         <br>
+         Opening Hours<br>
+         Monday - Friday:09:00 - 05:00<br>
+         Saturday: 09:00 - 01:00<br>
+                </p>
+            </div>
+            <div class="Social">
+                <h2>Stay Social</h2>
+            <div class="soc">
+                <img src="facebook.png">
+                <a href="">Connect with us in Facebook</a>
+            </div>
+            <div class="soc">
+                <img src="x.png">
+                <a href="">Keep up with our Tweets</a>
+            </div>
+            <div class="soc">
+                <img src="insta.png">
+                <a href="https://www.instagram.com/limbu_bishesh/">follow us on Instagram</a>
+            </div>
+            </div>       
+    </footer>
+    <script>
+      function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+    </script>
+</body>
+</html>

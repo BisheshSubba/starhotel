@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Baskerville Old Face';
+}
+.rooms{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    margin-bottom: 70px;
+    gap: 2em;
+    padding: 0 20px;
+}
+.room{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+   
+}
+.room img{
+    align-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.room a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Bodoni mt';
+
+}
+@media only screen and (max-width:412px){
+    .room{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 150px;
+        background-color: rgb(241, 246, 217);
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+    }
+    .room img{
+        align-content: center;
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+    }
+    .room a{
+        padding-top: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-family: 'Bodoni mt';
+    
+    }
+}
