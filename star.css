@@ -22,7 +22,7 @@ body{
     margin-right: 20px;
     backdrop-filter: 0px;
     transition: opacity 0.6s ease;
-    z-index: 1;
+    z-index: 10;
 }
 @media only screen and (min-width:1200px){
 .head:hover{
@@ -154,7 +154,6 @@ img{
 }
 .slider {
     flex: 1;
-    z-index: 2;
     height: 100%;
     overflow: hidden;
     align-self: center;
@@ -186,7 +185,6 @@ img{
 }
 .slider2 {
     flex: 1;
-    z-index: 2;
     height: 100%;
     overflow: hidden;
     align-self: center;
@@ -259,7 +257,7 @@ img{
         padding:0 0;
         background-color: white;
         color: white;
-        z-index: 1;
+        z-index: 10;
     }
     .logo{
         display: flex;
@@ -391,7 +389,6 @@ img{
     }
     .slider {
         flex: 1;
-        z-index: 2;
         height: 250px;
         overflow: hidden;
         border-radius: 20px;
